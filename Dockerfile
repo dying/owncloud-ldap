@@ -1,6 +1,6 @@
 FROM owncloud:10.0-apache
 
-MAINTAINER docker@mikeditum.co.uk
+MAINTAINER marwan@automne.me
 
 RUN apt-get update && \
     apt-get install -y libldap2-dev && \
