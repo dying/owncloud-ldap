@@ -1,6 +1,6 @@
 FROM owncloud:10.0-apache
 
-MAINTAINER marwan@automne.me
+LABEL maintainer "marwan@automne.me"
 
 RUN apt-get update && \
     apt-get install -y libldap2-dev && \
